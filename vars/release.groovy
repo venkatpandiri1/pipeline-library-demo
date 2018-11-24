@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-def call(String name = 'human') {
+def call(String name = 'human', String groupid = '1') {
   echo "Hello, ${name}."
   echo "Hello, ${name}."
   nexusArtifactUploader(
